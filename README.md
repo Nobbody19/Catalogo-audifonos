@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Catálogo AirPods - Isaac</title>
+  <style>
+    body { font-family: Arial, sans-serif; background: #f9f9f9; margin: 0; padding: 0; }
+    header { background: #000; color: #fff; padding: 20px; text-align: center; }
+    .container { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; padding: 20px; }
+    .card { background: white; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); overflow: hidden; }
+    .card img { width: 100%; height: auto; }
+    .card-content { padding: 15px; }
+    .card h3 { margin: 0 0 10px; font-size: 1.2em; }
+    .price { color: #e91e63; font-size: 1.1em; font-weight: bold; margin-top: 10px; }
+    .buy-button { background: #28a745; color: white; padding: 10px; display: inline-block; margin-top: 10px; border-radius: 5px; text-decoration: none; }
+    footer { text-align: center; padding: 15px; font-size: 0.9em; background: #eee; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Catálogo de Audífonos Premium</h1>
+    <p>Conecta estilo, tecnología y comodidad en un solo lugar</p>
+  </header>
+
+  <div class="container">
+
+    <!-- Producto 1 -->
+    <div class="card">
+      <img src="producto1.jpg" alt="Audífonos Pantalla LED">
+      <div class="card-content">
+        <h3>Audífonos con Pantalla LED</h3>
+        <p>Cancelación activa de ruido, pantalla digital, bluetooth estable y diseño ergonómico. Incluye cable tipo C y gomas ajustables.</p>
+        <div class="price">$70.000</div>
+        <a href="https://wa.me/573011658021?text=Hola%2C%20quiero%20comprar%20los%20Aud%C3%ADfonos%20con%20Pantalla%20LED" class="buy-button">Comprar</a>
+      </div>
+    </div>
+
+    <!-- Producto 2 -->
+    <div class="card">
+      <img src="producto2.jpg" alt="AirPods Serie 4">
+      <div class="card-content">
+        <h3>AirPods Serie 4</h3>
+        <p>Sonido estéreo, micrófono integrado, bluetooth 5.1, estuche magnético, batería de larga duración.</p>
+        <div class="price">$80.000</div>
+        <a href="https://wa.me/573011658021?text=Hola%2C%20quiero%20comprar%20los%20AirPods%20Serie%204" class="buy-button">Comprar</a>
+      </div>
+    </div>
+
+    <!-- Producto 3 -->
+    <div class="card">
+      <img src="producto3.jpg" alt="AirPods Pro 2 ANC">
+      <div class="card-content">
+        <h3>AirPods Pro 2 ANC</h3>
+        <p>Versión 1.1 tipo C, cancelación activa de ruido, sensores táctiles, GPS, sonido envolvente, resistencia al agua.</p>
+        <div class="price">$70.000</div>
+        <a href="https://wa.me/573011658021?text=Hola%2C%20quiero%20comprar%20los%20AirPods%20Pro%202%20ANC" class="buy-button">Comprar</a>
+      </div>
+    </div>
+
+    <!-- Producto 4 -->
+    <div class="card">
+      <img src="producto4.jpg" alt="AirPods Serie 3">
+      <div class="card-content">
+        <h3>AirPods Serie 3</h3>
+        <p>Amplificador de rango dinámico, sensor de piel, hasta 30 horas de audio, conexión bluetooth rápida, estuche magnético.</p>
+        <div class="price">$60.000</div>
+        <a href="https://wa.me/573011658021?text=Hola%2C%20quiero%20comprar%20los%20AirPods%20Serie%203" class="buy-button">Comprar</a>
+      </div>
+    </div>
+
+  </div>
+
+  <footer>
+    Contacto vía WhatsApp | Envíos a toda Colombia | Garantía incluida 💼
+  </footer>
+</body>
+</html>
